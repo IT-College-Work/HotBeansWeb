@@ -1,0 +1,393 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../CSS/CSS-Sheet.css">
+<link rel="icon" href="../Images/PNG/icon.png">
+<title>Meet The Team - Hot Beans Web</title>
+
+<script defer src="../JS/mobile_nav.js"></script>
+<script defer src="../JS/fade-others.js"></script>
+
+</head>
+<body class="dark_theme" id="page-body">
+	<script type="text/javascript">	
+		function navbaropen() {
+			var getmenu = document.getElementById("mobilenav_screen");
+			getmenu.style.left = "0%";
+			
+		}
+		
+		function mobilenavbarback() {
+			var getmenu = document.getElementById("mobilenav_screen");
+			
+			getmenu.style.left  = "200%";
+		
+			
+
+		}
+	</script>
+	<!--Header/Top Navigation Bar-->
+	<span id="top_page"></span>
+	<!--NEW MOBILE MENU OPEN/CLOSE-->
+	<a href="#navmenu" id="m_nav_btn_toggle" onclick="navbartoggle()">
+		<hr id="m_nav_btn_toggle_line1">
+		<hr id="m_nav_btn_toggle_line2">
+		<hr id="m_nav_btn_toggle_line3">
+        <hr id="m_nav_btn_toggle_open1" style="opacity: 0">
+		<hr id="m_nav_btn_toggle_open2" style="opacity: 0">
+	</a>
+	<!--MOBILE NAVIGATION MENU-->
+	<div id="mobilenav_screen">
+        <div id="m_nav_top_header" style="opacity: 0">
+		  <img src="../Images/PNG/Logo_Waves.png" alt="Logo" width="90px" height="90px" style="margin-top: 5px; margin-left: 15px;" />
+	    </div>
+		<div id="m_nav_content"	>
+			<div class="m_nav_contentWrapper">
+				<a class="m_nav_btn" href="Portfolio.html" style="text-decoration: none">
+					<span class="m_nav_btn_decor">Portfolio</span>		
+					<img alt="Click Arrow" width="50px" height="50px" src="../Images/PNG/Chevron.png">
+				</a>
+				<br class="BreakLine_5px">
+				<a class="m_nav_btn" href="Meet_The_Team.html" style="text-decoration: none">
+					<span class="m_nav_btn_decor">Meet The Team</span>		
+					<img alt="Click Arrow" width="50px" height="50px" src="../Images/PNG/Chevron.png">
+				</a>
+				<br class="BreakLine_5px">
+				<a class="m_nav_btn" href="Job_Qualifications.html" style="text-decoration: none">
+					<span class="m_nav_btn_decor">Qualifications / Specifications</span>		
+					<img alt="Click Arrow" width="50px" height="50px" src="../Images/PNG/Chevron.png">
+				</a>
+				<br class="BreakLine_5px">
+				<a class="m_nav_btn" href="Courses.html" style="text-decoration: none">
+					<span class="m_nav_btn_decor">Courses</span>		
+					<img alt="Click Arrow" width="50px" height="50px" src="../Images/PNG/Chevron.png">
+				</a>
+				<br class="BreakLine_5px">
+				<a class="m_nav_btn" href="apply_page.html" style="text-decoration: none">
+					<span class="m_nav_btn_decor">Apply</span>		
+					<img alt="Click Arrow" width="50px" height="50px" src="../Images/PNG/Chevron.png">
+				</a>
+				<br class="BreakLine_5px">
+				<span class="m_nav_dropdown">
+					<a class="m_nav_btn" href="javascript:void(0)" style="text-decoration: none" id="m_nav_btn_themes_dropdown">
+						<span class="m_nav_btn_decor">Website Themes</span>		
+						<img alt="Click Arrow" width="50px" height="50px" src="../Images/PNG/Chevron.png">
+					</a>
+					<div class="m_nav_dropdown_menu">
+						<ul>
+							<li>
+								<a href="javascript:void(0);" id="light_toggle_mnav" class="textstandard" style="text-decoration:none">Light Theme</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" id="dark_toggle_mnav" class="textstandard" style="text-decoration:none">Dark Theme</a>
+							</li>
+						</ul>
+					</div>
+				</span>
+			</div>
+		</div>
+	</div>
+	
+    <div id="header" style="box-shadow: 0px 14px 50px 2px rgba(0,0,0,0.62);">
+		<!--Application Button-->
+		<a href="apply_page.html" >
+			<p class="apply_button_txt">Apply</p>
+		</a>
+		<!--Company Logo-->
+		<a class="logo_cont" href="Portfolio.html">
+			<img class="logo_2" src="../Images/PNG/Logo_Waves_2.png" alt="Logo" width="225px" height="100px" />
+			<img class="logo" src="../Images/PNG/Logo_Waves_1.png" alt="Logo" width="225px" height="100px" />
+			<img class="logo_base" src="../Images/PNG/Logo_Base.png" alt="Logo" width="225px" height="100px" />
+		</a>
+		<!--Navigation Bar-->
+	  	<div id="navbar">
+			<nav>
+				<ul>
+					<!--<span class="header_underline"></span>-->
+					<li><a href="Portfolio.html">Portfolio</a>
+
+					</li>
+					<li><a class="nav_current" href="Meet_The_Team.html">Meet the Team</a>
+						
+					</li>
+					<li><a href="Job_Qualifications.html">Job Specifications / Qualifications</a>
+						
+					</li>
+					<li><a href="Courses.html">Courses</a>
+						
+					</li>
+					<script defer src="../JS/theme.js"></script>
+					<li class="li_has-dropdown">
+						<a href="javascript:void(0);" class="void_hover">Themes</a>
+						<ul class="dropdown" style="transform: translate(0px,36px);">
+							<li>
+								<a href="javascript:void(0);" id="light_toggle" class="void_hover"></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" id="dark_toggle" class="void_hover"></a>
+							</li>
+
+						</ul>
+					</li>
+				</ul>
+		  </nav>
+		</div>
+	</div>
+	<!--Image Background-->
+	<br class="content_breaker">
+	<div class="imagebackground">
+        <h1 id="cbg_txt" class="codebackgroundtext">Meet the Team</h1>
+        
+		<div id="image-top-banner-container">
+			<img class="codebackground" style="background-image: url(../Images/PNG/code-preblurred.jpg);" alt="Banner Image" width="100%" height="600px" id="banner_codebackground"/>
+		</div>
+        
+		<script defer type="text/javascript">
+			const bgtext = document.getElementById("cbg_txt")
+
+			window.onload = function(){
+				bgtext.style.animationPlayState = "running"
+			}
+		</script>
+	</div>
+	<div class="div_box"></div>
+	<!--Page Content-->
+	<div class="page_content">
+		<!--Content Box-->
+		<br class="BreakLine_5px">
+        <script defer src="../JS/employee-box-handler.js"></script>
+		<div class="employee-showcase-contact" style="pointer-events: none;opacity: 0" id="employee-contact-socials-menu">
+			<img src="../Images/PNG/Employee/Employee1.jpg" alt="Arjun" id="employee-showcase-contact-background" style="transform: translate3d(200%,0,0); opacity: 0">
+			<div class="employee-showcase-contact-information" id="employee-contact-information" style="transform: translate3d(-100%,0,0); opacity: 0">
+				<br>
+				<a href="javascript:void[0]" onclick="employee_contact_back()" class="employee-showcase-contact-back">Go Back</a>
+				<hr>
+
+				<h1 id="employee-showcase-contact-name" style="margin-top: 10px;">Contact (name)</h1>
+                <br>
+                <br>
+				<div class="employee-showcase-contact-buttons-wrapper">
+					<a href="#" id="employee-showcase-contact-twitter" class="employee-showcase-contact-button">
+						<span><h2>Twitter:  </h2></span>
+						<br>
+						<br>
+						<span style="margin-left: 20px;"><h3 id="employee-showcase-contact-twitter-name">@twitter</h3></span>
+					</a>
+					<a href="#" id="employee-showcase-contact-instagram" class="employee-showcase-contact-button">
+						<span><h2>Instagram:  </h2></span>
+						<br>
+						<br>
+						<span style="margin-left: 20px;"><h3 id="employee-showcase-contact-instagram-name">@instagram</h3></span>
+			
+					</a>
+					<a href="#" id="employee-showcase-contact-facebook" class="employee-showcase-contact-button">
+						<span><h2>Facebook:  </h2></span>
+						<br>
+						<br>
+						<span style="margin-left: 20px;"><h3 id="employee-showcase-contact-facebook-name">@facebook</h3></span>
+					</a>
+					<a id="employee-showcase-contact-linkedin" class="employee-showcase-contact-button" href="#">
+						<span><h2>LinkedIn:  </h2></span>
+						<br>
+						<br>
+						<span style="margin-left: 20px;"><h3 id="employee-showcase-contact-linkedin-name">@linkedin</h3></span>
+					</a>
+				</div>
+				<!--/*
+				#c13584;
+				#1DA1F2;
+				#2867b2"
+				*/-->
+				
+			</div>
+
+		</div>
+           <div class="employee-showcase-wrapper">
+            <div class="employee-showcase-container">
+				
+				<div>
+             		<img src="../Images/PNG/Employee/Employee1.jpg" alt="Arjun" id="employee-image-1">	
+				</div>
+
+                <h1>Arjun</h1>
+                <h2>Founder / CEO</h2>
+                <br>
+                <a href="javascript:void[0]" onclick="employee_contact(1)" class="buttonv_2_arrowless">Social Media</a>
+                <br>
+                <br>
+                <a href="mailto:Arjun@HotBeans.com" class="buttonv_2_arrowless">Email</a>
+            </div>
+            <div class="employee-showcase-container">
+				<div>
+					<img src="../Images/PNG/Employee/Employee2.jpg" alt="Derek" id="employee-image-2">
+				</div>
+                <h1>Derek</h1>
+                <h2>UI / UX Designer</h2>
+                <br>
+                 <a href="javascript:void[0]" onclick="employee_contact(2)" class="buttonv_2_arrowless">Social Media</a>
+                <br>
+                <br>
+                <a href="mailto:Derek@HotBeans.com" class="buttonv_2_arrowless">Email</a>
+            </div>
+            <div class="employee-showcase-container">
+				<div>
+					<img src="../Images/PNG/Employee/Employee3.jpg" alt="James" id="employee-image-3">
+				</div>
+                <h1>James</h1>
+				<h2>Senior Developer</h2>
+                <br>
+                 <a href="javascript:void[0]" onclick="employee_contact(3)" class="buttonv_2_arrowless">Social Media</a>
+                <br>
+                <br>
+                <a href="mailto:James@HotBeans.com" class="buttonv_2_arrowless">Email</a>
+            </div>
+        </div>
+        <br>
+        <div class="employee-showcase-wrapper">
+             <div class="employee-showcase-container">
+				<div>
+					<img src="../Images/PNG/Employee/Employee4.jpg" alt="Robert" id="employee-image-4">
+				</div>
+                <h1>Robert</h1>
+				<h2>Developer</h2>
+                <br>
+                 <a href="javascript:void[0]" onclick="employee_contact(4)" class="buttonv_2_arrowless">Social Media</a>
+                <br>
+                <br>
+                <a href="mailto:Robert@HotBeans.com" class="buttonv_2_arrowless">Email</a>
+
+            </div>
+            <div class="employee-showcase-container">
+				<div>
+					<img src="../Images/PNG/Employee/Employee5.jpg" alt="Patricia" id="employee-image-5">
+				</div>
+                <h1>Patricia</h1>
+				<h2>Developer</h2>
+                <br>
+                 <a href="javascript:void[0]" onclick="employee_contact(5)" class="buttonv_2_arrowless">Social Media</a>
+                <br>
+                <br>
+                <a href="mailto:Patricia@HotBeans.com" class="buttonv_2_arrowless">Email</a>
+
+            </div>
+            <div class="employee-showcase-container">
+				<div>
+					<img src="../Images/PNG/Employee/Employee6.jpg" alt="Aaron" id="employee-image-5">
+				</div>
+                <h1>Aaron</h1>
+				<h2>Backend Developer</h2>
+                <br>
+                 <a href="javascript:void[0]" onclick="employee_contact(6)" class="buttonv_2_arrowless">Social Media</a>
+                <br>
+                <br>
+                <a href="mailto:Aaron@HotBeans.com" class="buttonv_2_arrowless">Email</a>
+            </div>
+        </div>
+    </div>
+	<br class="BreakLine_60px">
+	<div class="banner_box">
+		<h1>We're Hiring!</h1>
+		  <h3>&nbsp;Experienced Web Developers Wanted!</h3>
+		  <div class="banner_span">
+			<a class="buttonv_2_white" href="apply_page.html">Come and join the Team!</a>
+	  </div>
+	</div>
+	<!--
+	<div class="banner_box">
+	  <h1 class="textstandard">We're Hiring!</h1>
+		<h2 class="textlight">&nbsp;Experienced Web Developers Wanted!</h2>
+		<div class="banner_span">
+			<a class="uni_link" href="apply_page.html" target="_blank" style="text-decoration: none">
+				<span class="uni_btn_white_static">Apply to work with us!</span>		
+			</a>
+		</div>
+	</div>-->
+	<!--Footer Box-->
+	<div id="footer">
+		<div class="footer_wrapper">
+			<!--Company Address/Info-->
+			<div class="footer_content">
+				<div class="footer_content_title">
+					<svg width="247" height="535" viewBox="0 0 247 535" fill="none" xmlns="http://www.w3.org/2000/svg" id="footer-svg-logo">
+						<path id="Rim" d="M237.5 242C237.5 243.761 236.015 246.671 230.16 250.218C224.576 253.6 216.195 256.806 205.443 259.561C184.007 265.053 154.149 268.5 121 268.5C87.8506 268.5 57.9935 265.053 36.5569 259.561C25.8046 256.806 17.4245 253.6 11.8402 250.218C5.98501 246.671 4.5 243.761 4.5 242C4.5 240.239 5.98501 237.329 11.8402 233.782C17.4245 230.4 25.8046 227.194 36.5569 224.439C57.9935 218.947 87.8506 215.5 121 215.5C154.149 215.5 184.007 218.947 205.443 224.439C216.195 227.194 224.576 230.4 230.16 233.782C236.015 237.329 237.5 240.239 237.5 242Z" stroke="black" stroke-width="9"/>
+						<path id="CanBody" d="M6 506.229V253C32.0028 256.957 92.1054 265.068 124.494 265.859C156.882 266.651 211.326 252.616 237 248L242 516.121C242 516.121 163.992 530.76 124.494 529.969C84.9958 529.178 29.6987 517.439 6 506.229Z" fill="black" stroke="black" stroke-width="9"/>
+						<path id="Heat1" d="M8 179C41.2569 168 67.2569 156 41.2569 113C15.2569 70 13.7257 25 65.2569 17" stroke="black" stroke-width="22"/>
+						<path id="Heat2" d="M96.2569 173C129.514 162 155.514 150 129.514 107C103.514 64 101.983 19 153.514 11" stroke="black" stroke-width="22"/>
+						<path id="Heat3" d="M184.257 179C217.514 168 243.514 156 217.514 113C191.514 70 189.983 25 241.514 17" stroke="black" stroke-width="22"/>
+						</svg>
+						
+							
+					<h1>Hot Beans Web</h1>
+				</div>
+				<div class="footer_content_content">
+					<hr class="footer_hrline">
+					<h3>Unit 2,<br>48 Waterside Way,<br>Wigan,<br>England,<br>WA20 KF2</h3>
+				</div>
+			</div>
+			<!--Social Media Icons-->
+			<br class="adapt_breakline">
+			<div class="footer_content">
+				<div class="footer_content_title">
+					<svg width="384" height="293" viewBox="0 0 384 293" fill="none" xmlns="http://www.w3.org/2000/svg" id="footer-contact_email">
+						<path id="mail-closed-detail2" d="M149 102L8 245" stroke="black" stroke-width="14"/>
+						<path id="mail-closed-detail1" d="M237 101L377 247" stroke="black" stroke-width="14"/>
+						<path id="mail-open-inside-stroke" d="M189 125L15 16L28 6H357L368 16L189 125Z" stroke="black" stroke-width="11"/>
+						<rect id="mail-outline" x="6.5" y="6.5" width="371" height="280" rx="23.5" stroke="black" stroke-width="13"/>
+						</svg>
+						
+		
+					<h1>Email/Telephone</h1>
+				</div>
+				<div class="footer_content_content" id="contact_footer">
+					<hr class="footer_hrline">
+					<a class="linkv2_2" href="mailto:contact@HotBeansWeb.co.uk">
+						contact@HotBeansWeb.co.uk
+					</a>
+					<br>
+					<a class="linkv2_2" href="tel:+44 000000000">+44 000000000</a>
+				</div>
+			</div>
+			<div class="footer_content">
+				<div class="footer_content_title" id="footer-contact_followus">
+					<svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg" id="footer-contact_followus-svg">
+						<path id="social-line" d="M68 71L33 49L68 30" stroke="black" stroke-width="5"/>
+						<circle id="social-dot1" cx="29.5" cy="50.5" r="8.5" fill="black"/>
+						<circle id="social-dot2" cx="69.5" cy="29.5" r="8.5" fill="black"/>
+						<circle id="social-dot3" cx="69.5" cy="73.5" r="8.5" fill="black"/>
+						<!--<rect id="Outline" x="3" y="3" width="96" height="96" rx="22" stroke="black" stroke-width="6"/>-->
+						</svg>
+					<h1>Follow Us!</h1>
+				</div>
+				<div class="footer_content_content">
+					<hr class="footer_hrline">
+					<a class="socials_footer" href="">
+						<img class="Instagram" src="../Images/PNG/NewSocials/glyph-logo_May2016.png" width="50px" height="50px" alt="Instagram">
+					</a>
+					<a class="socials_footer" href="">
+						<img class="Facebook" src="../Images/PNG/NewSocials/f_logo_RGB-White_72.png" width="50px" height="50px" alt="Facebook">
+					</a>
+					<a class="socials_footer" href="">
+						<img class="LinkedIn" src="../Images/PNG/NewSocials/LI-In-Bug.png" width="60px" height="50px" alt="LinkedIn">
+					</a>
+					<a class="socials_footer" href="">
+						<img class="Twitter" src="../Images/PNG/NewSocials/Twitter social icons - square - white.png" width="50px" height="50px" alt="Twitter">
+					</a>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<!--Page Credits-->
+	<div id="credits">
+		<div id="credits_text">
+			<h3 style="font-size: 1rem"> &copy; Hot Beans Web 2021
+            <!--<a href="#" class="linkv2_2">Privacy Policy</a></span></h3>-->
+		</div>
+		<a class="buttonv_2_arrowless" href="#top_page" >Go to Top</a>		
+	</div>
+</body>
+</html>
