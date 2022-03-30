@@ -1,0 +1,37 @@
+<svg width="471" height="281" viewBox="0 0 471 281" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect id="Background" width="471" height="281" fill="#373737"/>
+<rect id="Header" width="471" height="29" fill="#1D1D1D"/>
+<g id="SearchBar" filter="url(#filter0_d)">
+<rect x="13" y="8" width="349" height="15" rx="7.5" fill="#C4C4C4"/>
+</g>
+<circle id="RedHeader" cx="419.5" cy="15.5" r="6.5" fill="#F47C7C"/>
+<circle id="YellowHeader" cx="437.5" cy="15.5" r="6.5" fill="#F4DA7C"/>
+<circle id="GreenHeader" cx="455.5" cy="15.5" r="6.5" fill="#A3F47C"/>
+<g id="PageHeader">
+<rect id="PageHeader_2" y="29" width="471" height="31" fill="#FF3700"/>
+<rect id="Background_2" y="60" width="471" height="124" fill="#A2A2A2"/>
+<rect id="HeaderImage" x="17" y="66" width="188" height="112" rx="27" fill="#272727"/>
+<g id="Lines">
+<line id="Line 1" x1="223.983" y1="73.9831" x2="451.983" y2="73.017" stroke="#646464" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 2" x1="222.482" y1="102.482" x2="353.482" y2="101.518" stroke="#646464" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 3" x1="222.482" y1="119.482" x2="353.482" y2="118.518" stroke="#646464" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 4" x1="222.482" y1="136.482" x2="353.482" y2="135.518" stroke="#646464" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 5" x1="222.482" y1="153.482" x2="353.482" y2="152.518" stroke="#646464" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 6" x1="222.482" y1="170.482" x2="353.482" y2="169.518" stroke="#646464" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<rect id="Content1" x="17" y="192" width="132" height="89" fill="#252525"/>
+<rect id="Content2" x="171" y="192" width="130" height="89" fill="#242424"/>
+<rect id="Content3" x="323" y="192" width="133" height="89" fill="#252525"/>
+<defs>
+<filter id="filter0_d" x="9" y="8" width="357" height="23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="384" height="468" viewBox="0 0 384 468" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="mail-closed-detail2" d="M192 300L12 454" stroke="black" stroke-width="5"/>
+<path id="mail-closed-detail1" d="M188 300L370 455" stroke="black" stroke-width="5"/>
+<path id="mail-open-outside-stroke" d="M189 29L15 184H362L189 29Z" fill="#C4C4C4" stroke="black" stroke-width="10"/>
+<path id="mail-open-inside-stroke" d="M189 300L15 191L28 181H357L368 191L189 300Z" fill="#C4C4C4" stroke="black" stroke-width="11"/>
+<rect id="mail-outline" x="6.5" y="181.5" width="371" height="280" rx="23.5" stroke="black" stroke-width="13"/>
+<g id="Paper">
+<rect id="papersheet" x="60" width="256" height="321" fill="white"/>
+<line id="Line 1" x1="78" y1="24.5" x2="188" y2="24.5" stroke="#868686" stroke-width="9"/>
+<line id="Line 2" x1="77.9815" y1="60" x2="293.981" y2="59" stroke="#868686" stroke-width="8"/>
+<line id="Line 3" x1="77.9815" y1="80" x2="293.981" y2="79" stroke="#868686" stroke-width="8"/>
+<line id="Line 4" x1="77.9815" y1="98" x2="293.981" y2="97" stroke="#868686" stroke-width="8"/>
+<line id="Line 5" x1="77.9815" y1="116" x2="293.981" y2="115" stroke="#868686" stroke-width="8"/>
+<line id="Line 6" x1="77.9815" y1="136" x2="293.981" y2="135" stroke="#868686" stroke-width="8"/>
+<line id="Line 7" x1="77.9815" y1="158" x2="293.981" y2="157" stroke="#868686" stroke-width="8"/>
+<line id="Line 8" x1="77.9815" y1="177" x2="293.981" y2="176" stroke="#868686" stroke-width="8"/>
+<line id="Line 9" x1="82.9815" y1="198" x2="298.981" y2="197" stroke="#868686" stroke-width="8"/>
+</g>
+<path id="mail-fill-detail1" d="M10 193L187 311L361 193" stroke="white" stroke-width="10"/>
+<path id="mail-fill-detail2" d="M14 458L187 313L368 453" stroke="white" stroke-width="4"/>
+<path id="mail-fill-fadein" d="M184 306L12 182L3 207V440L20 462H369L380 440V207L369 182L184 306Z" fill="black" stroke="black"/>
+</svg>

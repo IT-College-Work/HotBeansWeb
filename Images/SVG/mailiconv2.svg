@@ -1,0 +1,6 @@
+<svg width="384" height="293" viewBox="0 0 384 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="mail-closed-detail2" d="M149 102L8 245" stroke="black" stroke-width="14"/>
+<path id="mail-closed-detail1" d="M237 101L377 247" stroke="black" stroke-width="14"/>
+<path id="mail-open-inside-stroke" d="M189 125L15 16L28 6H357L368 16L189 125Z" stroke="black" stroke-width="11"/>
+<rect id="mail-outline" x="6.5" y="6.5" width="371" height="280" rx="23.5" stroke="black" stroke-width="13"/>
+</svg>
